@@ -1,0 +1,141 @@
+/* General container styling */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Content container layout */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Aligns items to the top */
+  width: 80%; /* Adjust width as needed */
+  max-width: 960px;
+  margin-top: 40px;
+  gap: 40px; /* Increased gap between image and side content */
+}
+
+/* Image container */
+.image-container {
+  flex: 1; /* Takes up 1 part of available space */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: -70px;
+}
+
+/* Side content styling */
+.side-content {
+  flex: 1; /* Takes up more space than the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  
+}
+
+.side-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.side-content h1 {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.side-content p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.side-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Features grid layout */
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: left;
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature svg {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Button styling */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Decreased gap on smaller screens */
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+  .features {
+    grid-template-columns: 1fr; /* Single column on smaller screens */
+  }
+
+  button {
+    width: 100%;
+    text-align: center;
+  }
+}

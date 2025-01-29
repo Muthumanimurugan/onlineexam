@@ -1,0 +1,69 @@
+.sidebar {
+    position: fixed; /* Keeps the sidebar fixed */
+    top: 0;
+    left: 0;
+    /* width: 240px;
+    height: 100vh; Full height of the viewport */
+    background-color:#FFFFFF;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+    padding-top: 1rem;
+    overflow-y: auto; /* Adds scroll if content exceeds height */
+    z-index: 1000; /* Ensures the sidebar is above other content */
+    width: 250px;
+    height: 630px;
+    gap: 0px;
+    opacity: 0px;    
+border-radius: 32px;
+
+  }
+  
+  .sidebar-logo {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-links li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-links a {
+    text-decoration: none;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar-links a i {
+    margin-right: 0.8rem;
+  }
+  
+  .sidebar-links a:hover,
+  .sidebar-links .active {
+    background: linear-gradient(90deg, #33BB78 0%, #73ADE3 100%);
+   color:#FFFFFF;
+    font-weight: bold;
+ border-radius: 12px;
+ width:170px;
+ margin-left: 10px;
+
+  }
+  
+  /* Main content area adjustments to avoid being hidden under the sidebar */
+  .main-content {
+    margin-left: 240px; /* Adds space equal to sidebar width */
+    padding: 1.5rem;
+    background-color: #ffffff;
+  }
+  

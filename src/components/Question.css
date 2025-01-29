@@ -1,0 +1,47 @@
+.question-text{
+  text-align: left;
+}
+
+
+
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer; /* Ensure pointer cursor */
+
+}
+
+.option input[type="radio"] {
+  margin-right: 10px;
+  cursor: pointer; /* Ensure radio button is clickable */
+  position: relative;
+}
+
+.option-label {
+  font-size: 1em;
+  color: #444;
+  cursor: pointer; /* Ensure label is clickable */
+}
+
+.option-label:hover {
+  color: #007bff;
+}
+
+.option-label.selected {
+  font-weight: bold; /* Highlight the selected option */
+  color: #007bff; /* Blue color for selected option */
+  background-color: #f0f8ff; /* Light blue background for better visibility */
+  border-radius: 5px; /* Optional: add some rounded corners */
+  padding: 5px 10px; /* Add padding to increase clickable area */
+}
+
+.mark-review-btn {
+  background-color: blue !important;
+}
+
+.mark-review-btn.active {
+  background-color: orange !important;
+}
+

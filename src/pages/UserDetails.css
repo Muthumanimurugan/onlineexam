@@ -1,0 +1,386 @@
+/* .modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.5s ease;
+  z-index: 1000; 
+}
+
+.modal-content {
+  background: #fff;
+  border-radius: 12px; 
+  padding: 30px;
+  width: 100%;
+  max-width: 450px; 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-header h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group-phone {
+  margin-left: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 16px;
+}
+
+.input-field, .input-disabled, .form-group-phone input {
+  width: 100% !important;
+  max-width: 350px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+  background-color: #fafafa; 
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.input-field:focus, .form-group-phone input:focus {
+  border-color: #28a745;
+  outline: none;
+  box-shadow: 0 0 8px rgba(40, 167, 69, 0.5);
+}
+
+.input-disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px); 
+}
+
+.submit-button:active {
+  transform: translateY(1px);
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+@media (max-width: 600px) {
+  .modal-content {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .modal-header h2 {
+    font-size: 22px;
+  }
+
+  .input-field, .input-disabled, .form-group-phone input {
+    font-size: 15px;
+  }
+
+  .submit-button {
+    font-size: 16px;
+  }
+}
+
+.error-message:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.modal {
+  opacity: 0;
+  animation: fadeInBackground 0.5s ease forwards;
+}
+
+@keyframes fadeInBackground {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+
+/* 
+.user-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.user-details-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.user-details-form h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.wholeimage {
+  display: flex;
+  flex-direction: row;
+  gap: 290px; 
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-field:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:disabled {
+  background-color: #cccccc;
+}
+
+.submit-button:hover:enabled {
+  background-color: #0056b3;
+} */
+
+
+
+
+
+/* Container for the user details form */
+
+
+
+.userdetails-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+/* Form container styling */
+.userdetails-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+/* Header with logo and close button */
+.userdetails-header {
+  display: flex;
+  flex-direction: row;
+  gap: 290px; /* Adjusted spacing for better layout */
+  position: relative;
+}
+
+.userdetails-logo {
+  max-width: 70px;
+}
+.userdetails-close-button {
+  background: blue;
+  border: none;
+  cursor: pointer;
+  color: white !important;
+  background-color: none !important;
+  width: 10% !important;
+  padding: 8px;
+  height: 15px;
+  margin-left: -30px;
+  border-radius: 5px;
+}
+
+
+/* Title */
+.userdetails-form h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input group styling */
+.userdetails-input-group {
+  margin-bottom: 20px;
+}
+
+/* Label for input fields */
+.userdetails-input-group label {
+  display: block;
+  font-size: 14px;
+  color: #333 !important;
+  margin-bottom: 5px;
+}
+
+/* Styling for input fields */
+.userdetails-input-field {
+  width: 100%;
+  padding: 10px 0; /* Padding adjusted to create the underline effect */
+  font-size: 14px;
+  border: none; /* Remove the border */
+  border-bottom: 2px solid #ddd; /* Add underline */
+  background: transparent; /* Make the background transparent */
+  outline: none; /* Remove focus outline */
+}
+
+/* Input field focus styles */
+.userdetails-input-field:focus {
+  border-bottom-color: #007BFF; /* Change the color of underline on focus */
+}
+
+.userdetails-input-field:focus-visible {
+  outline: none; /* Ensure no outline when focused */
+}
+
+/* Error message styling */
+.userdetails-error-message {
+  color: red;
+  font-size: 12px;
+}
+
+/* Register button */
+
+
+.userdetails-register-button {
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+margin-left: 90px;
+}
+
+
+.userdetails-register-button:disabled {
+  background-color: #cccccc;
+}
+
+/* Resend OTP button */
+.userdetails-resend-otp-button {
+  background: none;
+  color: #007BFF;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Resend OTP button disabled state */
+.userdetails-resend-otp-button:disabled {
+  color: #cccccc;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+/* Resend OTP timer text */
+.userdetails-resend-timer {
+  font-size: 12px;
+}
+
+/* Phone input styling (with icon) */
+.MuiInputBase-root {
+  border: none;
+  box-shadow: none;
+  border-bottom: 2px solid #ddd;
+}
+
+/* For the Phone input field (without the underline effect) */
+.MuiInputBase-root:focus {
+  border-bottom-color: #007BFF;
+}
+
+/* Custom styling for the phone input (TextField component) */
+.MuiInputBase-input {
+  padding-left: 30px;
+}

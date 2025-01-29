@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .mock-test-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f4f8;
+  }
+  
+  /* Content Section: Questions */
+  .content-section {
+    flex: 65%;
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .question-area {
+    margin-bottom: 20px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    width:auto !important
+    
+
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    color: #aaa;
+  }
+  
+  button:not(:disabled) {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  button:not(:disabled):hover {
+    background-color: #1565c0;
+  }
+  
+  /* Timer Section */
+  .timer-section {
+    flex: 35%;
+    padding: 20px;
+    background-color: #e3f2fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timer {
+    font-size: 2rem;
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .question-palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .question-number {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #ccc;
+  }
+  
+  .question-number.answered {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .question-number:hover {
+    background-color: #bbdefb;
+  }
+  

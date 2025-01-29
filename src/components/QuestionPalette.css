@@ -1,0 +1,112 @@
+/* Question Palette Container */
+.question-palette {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Palette Layout */
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Individual Question Buttons */
+.question-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc; /* Default border */
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, border 0.3s; /* Smooth transition */
+}
+
+/* Default (Unanswered) State */
+.not-answered {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Answered State */
+.answered {
+  background-color: #4caf50; /* Green */
+  color: #fff;
+}
+
+/* Marked for Review */
+.marked-for-review {
+  background-color: #ff9800 !important; /* Orange */
+  color: #fff;
+}
+
+/* Current Question Highlight */
+.current {
+  border: 2px solid red; /* Bold border for current question */
+  background-color: red !important; /* Slightly darker background for current question */
+}
+
+/* Hover Effect for Buttons */
+.question-number:hover {
+  background-color: #ddd; /* Light grey hover background */
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/* Hover Effect for the Current Question Button */
+.current:hover {
+  background-color: #d0d0d0; /* Light grey background when hovered */
+  transform: scale(1.2); /* Enlarge the button when hovered */
+}
+
+/* Focus Effect for Accessibility */
+.question-number:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px rgba(0, 150, 255, 0.5); /* Add blue outline on focus */
+}
+
+/* General styling for legends */
+.legend, .legend-1,.legend-2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Circle Styling */
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* Answered Circle */
+.answered-circle {
+  background-color: #4caf50; /* Green */
+}
+
+/* Not Answered Circle */
+.not-answered-circle {
+  background-color: blue; /* Light blue (for not answered) */
+}
+
+.Markedquestion{
+  background-color: #ff9800;
+}
+
+.Legends {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem; /* Add 1rem of space between elements */
+}

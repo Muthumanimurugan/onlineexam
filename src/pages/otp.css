@@ -1,0 +1,231 @@
+/* .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 50px; 
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .modal-body {
+    text-align: center;
+  }
+  
+  .modal-body p strong {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .otp-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px; 
+  }
+  
+  .continue-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%; 
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-button:hover {
+    background-color: #45a049; 
+  }
+  
+  .continue-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .modal-body p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+   *//* OTP.css */
+
+/* Modal Container */
+
+
+/* Modal Container */
+.otp-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+/* Modal Content */
+.otp-modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal Header */
+.otp-modal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Email Information */
+.email-info {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* OTP Input Field */
+.otp-input {
+  width: 80%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #007bff;  /* Add a bottom border for underline */
+  border-radius: 0;  /* Remove rounded corners to make the underline clean */
+  font-size: 16px;
+  outline: none;
+  margin-left: 10%;
+}
+
+.otp-input:focus {
+  border-bottom: 2px solid #0056b3; /* Change color on focus for a nice effect */
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Button Container */
+.resend-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Submit Button */
+.verify-button {
+  width: 48%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.verify-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.verify-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+/* Resend Button */
+.resend-button {
+  width: 48%;
+  padding: 12px;
+  background-color: #f0f0f0;
+  color: #007bff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 270px !important;
+  margin-top: -50px;
+}
+
+.resend-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.resend-button:hover:not(:disabled) {
+  background-color: #e6e6e6;
+}
+
+.timer-text {
+  font-size: 14px;
+  color: #555;
+}
+.close-button{
+  background: blue;
+  border: none;
+  cursor: pointer;
+  color: white !important;
+  background-color: none !important;
+  width: 10% !important;
+  padding: 8px;
+  height: 15px;
+  margin-left: -30px;
+  border-radius: 5px;
+}
+
+.resend-button{
+  background-color: #1976d2;
+    color: white;
+}

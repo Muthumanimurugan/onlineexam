@@ -1,0 +1,78 @@
+[
+    {
+      "id": 1,
+      "questionText": "What is the capital of France?",
+      "options": ["Berlin", "London", "Paris", "Madrid"],
+      "correctAnswer": "Paris"
+    },
+    {
+      "id": 2,
+      "questionText": "Who painted the Mona Lisa?",
+      "options": ["Michelangelo", "Leonardo da Vinci", "Raphael", "Donatello"],
+      "correctAnswer": "Leonardo da Vinci"
+    },
+    {
+      "id": 3,
+      "questionText": "Which planet is known as the Red Planet?",
+      "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+      "correctAnswer": "Mars"
+    },
+    {
+      "id": 4,
+      "questionText": "Who is known as the Father of the Indian Constitution?",
+      "options": [
+        "Mahatma Gandhi",
+        "Dr. B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Subhash Chandra Bose"
+      ],
+      "correctAnswer": "Dr. B.R. Ambedkar"
+    },
+    {
+      "id": 5,
+      "questionText": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Pacific Ocean",
+        "Arctic Ocean"
+      ],
+      "correctAnswer": "Pacific Ocean"
+    },  
+    {
+      "id": 6,
+      "questionText": "What is the smallest unit of matter?",
+      "options": ["Atom", "Molecule", "Proton", "Electron"],
+      "correctAnswer": "Atom"
+    },
+    {
+      "id": 7,
+      "questionText": "Which Indian city is also known as the Silicon Valley of India?",
+      "options": ["Chennai", "Hyderabad", "Bengaluru", "Pune"],
+      "correctAnswer": "Bengaluru"
+    },
+    {
+      "id": 8,
+      "questionText": "Who discovered gravity when he saw a falling apple?",
+      "options": [
+        "Albert Einstein",
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Nikola Tesla"
+      ],
+      "correctAnswer": "Isaac Newton"
+    },
+    {
+      "id": 9,
+      "questionText": "What is the chemical symbol for water?",
+      "options": ["H2O", "O2", "CO2", "NaCl"],
+      "correctAnswer": "H2O"
+    },
+    {
+      "id": 10,
+      "questionText": "Which country is known as the Land of the Rising Sun?",
+      "options": ["India", "China", "Japan", "South Korea"],
+      "correctAnswer": "Japan"
+    }
+  ]
+  

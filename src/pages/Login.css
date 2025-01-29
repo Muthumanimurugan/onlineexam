@@ -1,0 +1,127 @@
+  /* Modal Container */
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 10px rgba(0, 0, 0, 0.1) !important;
+    width: 400px; 
+    border-color: #333  !important;
+  }
+
+  /* Modal Header */
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  /* Logo Styling */
+  .logo {
+    width: 50px; /* Adjust logo size as needed */
+  }
+
+  /* Close Button */
+  .close-button {
+    background: blue;
+    border: none;
+    cursor: pointer;
+    color: white !important;
+    background-color: none !important;
+    width: 10% !important;
+    padding: 8px;
+    height: 15px;
+    margin-left: -30px;
+    border-radius: 5px;
+  }
+
+  /* Modal Body */
+  .modal-body {
+    text-align: center;
+  }
+
+  /* Email Input Field */
+  .email-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px; /* Space between input and button */
+  }
+
+  /* Submit Button */
+  .continue-button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40% !important; /* Full-width button */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Submit Button Hover */
+  .continue-button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+  }
+
+  /* Disabled Submit Button */
+  .continue-button:disabled {
+    background-color: #ccc !important;
+    cursor: not-allowed;
+  }
+
+  /* Error Message */
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  /* OTP Page Styles */
+  .otp-page {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .otp-page h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .otp-input {
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+
+  .verify-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  /* OTP Submit Button Hover */
+  .verify-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  .error-message {
+    color: red !important;
+    font-size: 14px;
+    margin-top: 5px;
+  }
